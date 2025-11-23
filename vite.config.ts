@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Nebula-Chat/',   /https://shinobiscripter.github.io/Nebula-Chat
-/
+  base: '/Nebula-Chat/',
 });
